@@ -9,21 +9,50 @@
 /* Begin PBXBuildFile section */
 		F611A49B26EF3FB3007F6DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A49A26EF3FB3007F6DF3 /* AppDelegate.swift */; };
 		F611A49D26EF3FB3007F6DF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A49C26EF3FB3007F6DF3 /* SceneDelegate.swift */; };
-		F611A49F26EF3FB3007F6DF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A49E26EF3FB3007F6DF3 /* ContentView.swift */; };
+		F611A49F26EF3FB3007F6DF3 /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A49E26EF3FB3007F6DF3 /* AppCoordinatorView.swift */; };
 		F611A4A126EF3FB5007F6DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F611A4A026EF3FB5007F6DF3 /* Assets.xcassets */; };
 		F611A4A426EF3FB5007F6DF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F611A4A326EF3FB5007F6DF3 /* Preview Assets.xcassets */; };
 		F611A4A726EF3FB5007F6DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F611A4A526EF3FB5007F6DF3 /* LaunchScreen.storyboard */; };
+		F611A4AF26EF3FED007F6DF3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4AE26EF3FED007F6DF3 /* AppCoordinator.swift */; };
+		F611A4B126EF44C8007F6DF3 /* SpecificContentDownloadCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4B026EF44C8007F6DF3 /* SpecificContentDownloadCoordinator.swift */; };
+		F611A4B326EF44F3007F6DF3 /* SpecificContentDownloadCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4B226EF44F3007F6DF3 /* SpecificContentDownloadCoordinatorView.swift */; };
+		F611A4B626EF456A007F6DF3 /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4B526EF456A007F6DF3 /* HomeCoordinatorView.swift */; };
+		F611A4B826EF45C8007F6DF3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4B726EF45C8007F6DF3 /* HomeCoordinator.swift */; };
+		F611A4BA26EF4BAD007F6DF3 /* OnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4B926EF4BAD007F6DF3 /* OnBoardingCoordinator.swift */; };
+		F611A4BE26EF4CAB007F6DF3 /* OnBoardingCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4BD26EF4CAB007F6DF3 /* OnBoardingCoordinatorView.swift */; };
+		F611A4C226EF4DDB007F6DF3 /* InfoCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4C126EF4DDB007F6DF3 /* InfoCoordinatorView.swift */; };
+		F611A4C426EF4DE4007F6DF3 /* InfoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4C326EF4DE4007F6DF3 /* InfoCoordinator.swift */; };
+		F611A4C626EF9A98007F6DF3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4C526EF9A98007F6DF3 /* SettingsView.swift */; };
+		F611A4C826EF9BA7007F6DF3 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4C726EF9BA7007F6DF3 /* InfoView.swift */; };
+		F611A4CB26EFB059007F6DF3 /* View+onNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4CA26EFB059007F6DF3 /* View+onNavigation.swift */; };
+		F611A4CD26EFB079007F6DF3 /* NavigationLink+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4CC26EFB079007F6DF3 /* NavigationLink+Init.swift */; };
+		F611A4CF26EFB09C007F6DF3 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611A4CE26EFB09C007F6DF3 /* Feature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F611A49726EF3FB3007F6DF3 /* SwiftUI_Coordinator_Pattern_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Coordinator_Pattern_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F611A49A26EF3FB3007F6DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F611A49C26EF3FB3007F6DF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F611A49E26EF3FB3007F6DF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F611A49E26EF3FB3007F6DF3 /* AppCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
 		F611A4A026EF3FB5007F6DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F611A4A326EF3FB5007F6DF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F611A4A626EF3FB5007F6DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F611A4A826EF3FB5007F6DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F611A4AE26EF3FED007F6DF3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F611A4B026EF44C8007F6DF3 /* SpecificContentDownloadCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificContentDownloadCoordinator.swift; sourceTree = "<group>"; };
+		F611A4B226EF44F3007F6DF3 /* SpecificContentDownloadCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificContentDownloadCoordinatorView.swift; sourceTree = "<group>"; };
+		F611A4B526EF456A007F6DF3 /* HomeCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorView.swift; sourceTree = "<group>"; };
+		F611A4B726EF45C8007F6DF3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		F611A4B926EF4BAD007F6DF3 /* OnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinator.swift; sourceTree = "<group>"; };
+		F611A4BD26EF4CAB007F6DF3 /* OnBoardingCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCoordinatorView.swift; sourceTree = "<group>"; };
+		F611A4C126EF4DDB007F6DF3 /* InfoCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCoordinatorView.swift; sourceTree = "<group>"; };
+		F611A4C326EF4DE4007F6DF3 /* InfoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCoordinator.swift; sourceTree = "<group>"; };
+		F611A4C526EF9A98007F6DF3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F611A4C726EF9BA7007F6DF3 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F611A4CA26EFB059007F6DF3 /* View+onNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+onNavigation.swift"; sourceTree = "<group>"; };
+		F611A4CC26EFB079007F6DF3 /* NavigationLink+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationLink+Init.swift"; sourceTree = "<group>"; };
+		F611A4CE26EFB09C007F6DF3 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		F611A4F826EFB253007F6DF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +69,7 @@
 		F611A48E26EF3FB3007F6DF3 = {
 			isa = PBXGroup;
 			children = (
+				F611A4F826EFB253007F6DF3 /* README.md */,
 				F611A49926EF3FB3007F6DF3 /* SwiftUI_Coordinator_Pattern_Example */,
 				F611A49826EF3FB3007F6DF3 /* Products */,
 			);
@@ -58,7 +88,10 @@
 			children = (
 				F611A49A26EF3FB3007F6DF3 /* AppDelegate.swift */,
 				F611A49C26EF3FB3007F6DF3 /* SceneDelegate.swift */,
-				F611A49E26EF3FB3007F6DF3 /* ContentView.swift */,
+				F611A4CE26EFB09C007F6DF3 /* Feature.swift */,
+				F611A4D026EFB0B5007F6DF3 /* Views */,
+				F611A4B426EF4548007F6DF3 /* Coordinators */,
+				F611A4C926EFAD1E007F6DF3 /* Extensions */,
 				F611A4A026EF3FB5007F6DF3 /* Assets.xcassets */,
 				F611A4A526EF3FB5007F6DF3 /* LaunchScreen.storyboard */,
 				F611A4A826EF3FB5007F6DF3 /* Info.plist */,
@@ -73,6 +106,49 @@
 				F611A4A326EF3FB5007F6DF3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F611A4B426EF4548007F6DF3 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F611A4AE26EF3FED007F6DF3 /* AppCoordinator.swift */,
+				F611A4B026EF44C8007F6DF3 /* SpecificContentDownloadCoordinator.swift */,
+				F611A4B726EF45C8007F6DF3 /* HomeCoordinator.swift */,
+				F611A4B926EF4BAD007F6DF3 /* OnBoardingCoordinator.swift */,
+				F611A4C326EF4DE4007F6DF3 /* InfoCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F611A4C926EFAD1E007F6DF3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F611A4CA26EFB059007F6DF3 /* View+onNavigation.swift */,
+				F611A4CC26EFB079007F6DF3 /* NavigationLink+Init.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F611A4D026EFB0B5007F6DF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F611A4D126EFB15B007F6DF3 /* Coordinators */,
+				F611A4C526EF9A98007F6DF3 /* SettingsView.swift */,
+				F611A4C726EF9BA7007F6DF3 /* InfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F611A4D126EFB15B007F6DF3 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F611A49E26EF3FB3007F6DF3 /* AppCoordinatorView.swift */,
+				F611A4B526EF456A007F6DF3 /* HomeCoordinatorView.swift */,
+				F611A4BD26EF4CAB007F6DF3 /* OnBoardingCoordinatorView.swift */,
+				F611A4B226EF44F3007F6DF3 /* SpecificContentDownloadCoordinatorView.swift */,
+				F611A4C126EF4DDB007F6DF3 /* InfoCoordinatorView.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +221,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F611A4CB26EFB059007F6DF3 /* View+onNavigation.swift in Sources */,
+				F611A4CD26EFB079007F6DF3 /* NavigationLink+Init.swift in Sources */,
+				F611A4C226EF4DDB007F6DF3 /* InfoCoordinatorView.swift in Sources */,
+				F611A4AF26EF3FED007F6DF3 /* AppCoordinator.swift in Sources */,
+				F611A4B326EF44F3007F6DF3 /* SpecificContentDownloadCoordinatorView.swift in Sources */,
+				F611A4B126EF44C8007F6DF3 /* SpecificContentDownloadCoordinator.swift in Sources */,
+				F611A4B626EF456A007F6DF3 /* HomeCoordinatorView.swift in Sources */,
 				F611A49B26EF3FB3007F6DF3 /* AppDelegate.swift in Sources */,
+				F611A4C826EF9BA7007F6DF3 /* InfoView.swift in Sources */,
+				F611A4B826EF45C8007F6DF3 /* HomeCoordinator.swift in Sources */,
+				F611A4BE26EF4CAB007F6DF3 /* OnBoardingCoordinatorView.swift in Sources */,
+				F611A4C426EF4DE4007F6DF3 /* InfoCoordinator.swift in Sources */,
 				F611A49D26EF3FB3007F6DF3 /* SceneDelegate.swift in Sources */,
-				F611A49F26EF3FB3007F6DF3 /* ContentView.swift in Sources */,
+				F611A4CF26EFB09C007F6DF3 /* Feature.swift in Sources */,
+				F611A49F26EF3FB3007F6DF3 /* AppCoordinatorView.swift in Sources */,
+				F611A4BA26EF4BAD007F6DF3 /* OnBoardingCoordinator.swift in Sources */,
+				F611A4C626EF9A98007F6DF3 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +381,7 @@
 				DEVELOPMENT_TEAM = 4574F346W6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Coordinator_Pattern_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +403,7 @@
 				DEVELOPMENT_TEAM = 4574F346W6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Coordinator_Pattern_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
